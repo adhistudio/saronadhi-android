@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#A1541D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5389072248308971/6445561415">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+    <Button
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="C"
+        android:onClick="playC"
+        android:id="@+id/c_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_c" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="D"
+        android:onClick="playD"
+        android:id="@+id/d_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_button_c" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="E"
+        android:onClick="playE"
+        android:id="@+id/e_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_button_c" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="F"
+        android:onClick="playF"
+        android:id="@+id/f_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape_button_c" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="G"
+        android:onClick="playG"
+        android:id="@+id/g_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_button_c" />
+
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="A"
+        android:onClick="playA"
+        android:id="@+id/a_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/shape_button_c" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:text="B"
+        android:onClick="playB"
+        android:id="@+id/b_key"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_button_c" />
+
+</LinearLayout>
